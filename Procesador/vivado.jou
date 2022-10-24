@@ -1,0 +1,145 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jun 18 10:40:52 2021
+# Process ID: 13876
+# Current directory: D:/Facultad/Arqui/LAB/TP2/Procesador
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6228 D:\Facultad\Arqui\LAB\TP2\Procesador\project_1.xpr
+# Log file: D:/Facultad/Arqui/LAB/TP2/Procesador/vivado.log
+# Journal file: D:/Facultad/Arqui/LAB/TP2/Procesador\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Facultad/Arqui/LAB/TP2/Procesador/project_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source processor_tb.tcl
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+current_wave_config {Untitled 1}
+add_wave {{/processor_tb/UUT/Mux_MEM_WB}} 
+relaunch_sim
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+current_wave_config {Untitled 1}
+add_wave {{/processor_tb/UUT/EX_MEM_AluResult}} 
+current_wave_config {Untitled 1}
+add_wave {{/processor_tb/UUT/IF_ID_inst}} 
+relaunch_sim
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+current_wave_config {Untitled 1}
+add_wave {{/processor_tb/UUT/AluControl}} 
+relaunch_sim
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+current_wave_config {Untitled 1}
+add_wave {{/processor_tb/UUT/EX_MEM_ADD}} 
+relaunch_sim
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+current_wave_config {Untitled 1}
+add_wave {{/processor_tb/UUT/ID_EX_RegA}} 
+current_wave_config {Untitled 1}
+add_wave {{/processor_tb/UUT/ID_EX_RegB}} 
+relaunch_sim
+run 500 ns
+run 500 ns
+run 500 ns
+current_wave_config {Untitled 1}
+add_wave {{/processor_tb/UUT/AluResult}} 
+relaunch_sim
+run 500 ns
+run 500 ns
+run 500 ns
+current_wave_config {Untitled 1}
+add_wave {{/processor_tb/UUT/Registers1/regs}} 
+relaunch_sim
+run 500 ns
+run 500 ns
+current_wave_config {Untitled 1}
+add_wave {{/processor_tb/UUT/ID_EX_Ctrl_ALUSrc}} 
+relaunch_sim
+run 500 ns
+run 500 ns
+run 500 ns
+current_wave_config {Untitled 1}
+add_wave {{/processor_tb/UUT/Registers1/reg1_rd}} 
+current_wave_config {Untitled 1}
+add_wave {{/processor_tb/UUT/Registers1/reg2_rd}} 
+relaunch_sim
+run 500 ns
+run 500 ns
+run 500 ns
+current_wave_config {Untitled 1}
+add_wave {{/processor_tb/UUT/Registers1/data1_rd}} 
+relaunch_sim
+run 500 ns
+run 500 ns
+run 500 ns
+close_sim
+launch_simulation
+source processor_tb.tcl
+current_wave_config {Untitled 2}
+add_wave {{/processor_tb/UUT/AluResult}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/processor_tb/UUT/IF_ID_inst}} 
+current_wave_config {Untitled 2}
+add_wave {{/processor_tb/UUT/ID_EX_RegA}} 
+current_wave_config {Untitled 2}
+add_wave {{/processor_tb/UUT/ID_EX_RegB}} 
+current_wave_config {Untitled 2}
+add_wave {{/processor_tb/UUT/EX_ALU/a}} 
+current_wave_config {Untitled 2}
+add_wave {{/processor_tb/UUT/EX_ALU/b}} 
+relaunch_sim
+current_wave_config {Untitled 2}
+add_wave {{/processor_tb/UUT/Registers1/regs}} 
+relaunch_sim
+run 500 ns
+run 500 ns
+run 500 ns
+run 500 ns
+current_wave_config {Untitled 2}
+add_wave {{/processor_tb/Data_Mem_inst/Addr}} 
+current_wave_config {Untitled 2}
+add_wave {{/processor_tb/Data_Mem_inst/DataIn}} 
+relaunch_sim
+run 500 ns
+run 500 ns
+current_wave_config {Untitled 2}
+add_wave {{/processor_tb/UUT/EX_MEM_Ctrl_MemWrite}} 
+relaunch_sim
+run 500 ns
+run 500 ns
+current_wave_config {Untitled 2}
+add_wave {{/processor_tb/UUT/AluControl}} 
+relaunch_sim
+run 500 ns
+run 500 ns
+close_sim

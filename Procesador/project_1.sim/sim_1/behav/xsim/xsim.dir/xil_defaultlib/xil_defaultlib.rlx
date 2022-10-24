@@ -1,0 +1,11 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/Facultad/Arqui/LAB/TP2/Procesador/project_1.srcs/sim_1/imports/LabMaterial/processor_tb.vhd,1623879156,vhdl,,,,processor_tb;testbench_for_procesador,,,,,,,,
+D:/Facultad/Arqui/LAB/TP2/Procesador/project_1.srcs/sources_1/imports/LAB/P1a.vhd,1623160435,vhdl,,,,reg,,,,,,,,
+D:/Facultad/Arqui/LAB/TP2/Procesador/project_1.srcs/sources_1/imports/LabMaterial/memory.vhd,1394465850,vhdl,,,,memory,,,,,,,,
+D:/Facultad/Arqui/LAB/TP2/Procesador/project_1.srcs/sources_1/imports/LabMaterial/processor.vhd,1624023936,vhdl,D:/Facultad/Arqui/LAB/TP2/Procesador/project_1.srcs/sim_1/imports/LabMaterial/processor_tb.vhd,,,processor,,,,,,,,
+D:/Facultad/Arqui/LAB/TP2/Procesador/project_1.srcs/sources_1/imports/new/BANCO.vhd,1624041085,vhdl,,,,registers,,,,,,,,
+D:/Facultad/Arqui/LAB/TP2/Procesador/project_1.srcs/sources_1/imports/new/P1C.vhd,1620052307,vhdl,,,,alu,,,,,,,,
+D:/Facultad/Arqui/LAB/TP2/Procesador/project_1.srcs/sources_1/new/FF.vhd,1623603549,vhdl,,,,ff,,,,,,,,

@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/imports/new/BANCO.vhd" \
+"../../../../project_1.srcs/sources_1/imports/new/P1C.vhd" \
+"../../../../project_1.srcs/sources_1/imports/LabMaterial/memory.vhd" \
+"../../../../project_1.srcs/sources_1/imports/LabMaterial/processor.vhd" \
+"../../../../project_1.srcs/sim_1/imports/LabMaterial/processor_tb.vhd" \
+
+# Do not sort compile order
+nosort
